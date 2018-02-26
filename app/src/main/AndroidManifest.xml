@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mdsaifulislam.newproject3"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="23"/> -->
+    <!-- <uses-feature android:name="android.hardware.camera" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera.flash" /> -->
+
+
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="E-Healthcare"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainResActivity" />
+        <activity android:name=".Main2Activity"
+                  android:label="Blood Pressure"/>
+        <activity android:name=".BloodPressureProcess"
+                  android:label="Blood Pressure"/>
+        <activity android:name=".BloodPressureResult"
+                  android:label="Blood Pressure"/>
+        <activity android:name=".HeartRateProcess"
+                  android:label="Heart Rate"/>
+        <activity android:name=".HeartRateResult"
+                  android:label="Heart Rate"/>
+        <activity android:name=".StartHeartRate"
+                  android:label="Heart Rate"/>
+        <activity android:name=".TempActivity1"
+                  android:label="Body Temperature"/>
+        <activity android:name=".SharedPrefTemp"
+                  android:label="Body Temperature"/>
+        <activity android:name=".TempActivity2"
+                  android:label="Body Temperature"></activity>
+    </application>
+
+</manifest>

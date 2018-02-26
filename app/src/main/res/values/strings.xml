@@ -1,0 +1,17 @@
+<resources>
+    <string name="default_text">Avg red value</string>
+    <string name="app_name">Project1</string>
+    <string name="title_activity_navigation">E-Healthcare</string>
+
+
+    <string name="heart_rate">0</string>
+    <string name="resp_rate">0</string>
+    <string name="preference_file_key">com.example.mdsaifulislam.newproject3.PreferenceFilekey</string>
+    <string name="preference_file_key2">com.example.mdsaifulislam.newproject3.PreferenceFilekey2</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

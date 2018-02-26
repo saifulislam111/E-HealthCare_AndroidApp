@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView_show_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result of your Breath Rate (brpm)"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button_start_recording"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Start" />
+
+    <TextView
+        android:text="1. Place the microphone of your phone near to your nose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="2. Take breath with little sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="3. Continue Untill the breath rate is measured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17" />
+
+    <!--    <Button
+            android:id="@+id/button_stop_recording"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />-->
+
+</LinearLayout>
